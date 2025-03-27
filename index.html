@@ -13,17 +13,21 @@
             <h2>ToDo List</h2>
             <img src="media\portapapeles.png" class="list_img">
         </div>
-        <form class="add_container">
-            <input type="text" class="add_input" placeholder="Add your task">
-            <input type="submit" class="add_btn" value="+">
-        </form>
+        <div class="add_container">
+            <input type="text" id="task-input" class="add_input" placeholder="Add your task" autocomplete="off">
+            <button id="task-btn" class="add_btn">+</button>
+        </div>
+        <div class="btn_best_container">
+            <button class="fastest_btn">Mostrar rápida</button>
+            <button class="delete-btn">Borrar tareas</button>
+        </div>
+        <div class="span_container">
+            <span id="msg" class=""></span>
+        </div>
         <ul class="list_container">
             <li class="elemento">
-                <p class="task_name">Nombre tarea</p>
-            </li>
-            
-            <li class="elemento">
-                <p class="task_name">Nombre tarea</p>
+                <input type="checkbox" class="task_name" value="Nombre tarea">
+                <!--Seguir checkbox-->
             </li>
         </ul>
     </div>
