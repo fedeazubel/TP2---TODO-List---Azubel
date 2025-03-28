@@ -82,7 +82,7 @@ body {
 
 .span_container {
     width: 100%;
-    height: 40px;
+    min-height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,16 +109,24 @@ body {
     height: 50px;
     background-color: #eee;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
     border-radius: 8px;
+    padding: 10px;
+}
+
+.input {
 }
 
 .task_name {
-    margin-left: 20px;
-    border: 1px solid #000;
-    font-size: 18px;
+    margin-left: 8px;
 }
+
+
+.task_input {
+}
+
 
 .btn_best_container {
     width: 100%;
@@ -154,4 +162,8 @@ body {
 
 .grn {
     color: #0f0;
+}
+
+.line {
+    text-decoration: line-through;
 }
